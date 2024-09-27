@@ -9,7 +9,7 @@ public class PetService {
 
     public List getAvailableBreeds(PetType type){
 
-    	System.out.println("Inside method getAvailableBreed......");
+    	System.out.println("Inside method getAvailable......");
         List breeds = new ArrayList();
 
         if(type.equals(PetType.DOG)){
